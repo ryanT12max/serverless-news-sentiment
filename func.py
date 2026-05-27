@@ -55,7 +55,7 @@ def load_to_oracle(articles_with_sentiment):
     connection = oracledb.connect(
         user="ADMIN",
         password=os.environ.get("0n@stR8l1n3U"),
-        dsn="AviationDB_high",
+        dsn="Wallet_AviationDB",
         config_dir="/function/wallet",
         wallet_location="/function/wallet",
         wallet_password=os.environ.get("Tij79268*")
