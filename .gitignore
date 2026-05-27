@@ -1,0 +1,9 @@
+wallet/
+*.zip
+.env
+*.sso
+*.ora
+__pycache__/
+*.py[cod]
+.venv
+env/
